@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-05-11">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_watch_time" type="long" />
+      <attribute id="2" title="viewer_count" type="long" />
+    </attributes>
+    <nodes>
+      <node id="alice" label="alice">
+        <attvalues>
+          <attvalue for="0" value="viewer" />
+          <attvalue for="1" value="450" />
+        </attvalues>
+      </node>
+      <node id="xqc" label="xqc">
+        <attvalues>
+          <attvalue for="0" value="streamer" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="pokimane" label="pokimane">
+        <attvalues>
+          <attvalue for="0" value="streamer" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="bob" label="bob">
+        <attvalues>
+          <attvalue for="0" value="viewer" />
+          <attvalue for="1" value="300" />
+        </attvalues>
+      </node>
+      <node id="carol" label="carol">
+        <attvalues>
+          <attvalue for="0" value="viewer" />
+          <attvalue for="1" value="120" />
+        </attvalues>
+      </node>
+      <node id="dave" label="dave">
+        <attvalues>
+          <attvalue for="0" value="viewer" />
+          <attvalue for="1" value="400" />
+        </attvalues>
+      </node>
+      <node id="gaules" label="gaules">
+        <attvalues>
+          <attvalue for="0" value="streamer" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="eve" label="eve">
+        <attvalues>
+          <attvalue for="0" value="viewer" />
+          <attvalue for="1" value="250" />
+        </attvalues>
+      </node>
+      <node id="frank" label="frank">
+        <attvalues>
+          <attvalue for="0" value="viewer" />
+          <attvalue for="1" value="100" />
+        </attvalues>
+      </node>
+      <node id="george" label="george">
+        <attvalues>
+          <attvalue for="0" value="viewer" />
+          <attvalue for="1" value="180" />
+        </attvalues>
+      </node>
+      <node id="helen" label="helen">
+        <attvalues>
+          <attvalue for="0" value="viewer" />
+          <attvalue for="1" value="300" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="alice" target="xqc" id="0" weight="300" />
+      <edge source="alice" target="pokimane" id="1" weight="150" />
+      <edge source="bob" target="xqc" id="2" weight="200" />
+      <edge source="bob" target="gaules" id="3" weight="100" />
+      <edge source="carol" target="pokimane" id="4" weight="120" />
+      <edge source="dave" target="gaules" id="5" weight="400" />
+      <edge source="eve" target="gaules" id="6" weight="250" />
+      <edge source="frank" target="xqc" id="7" weight="100" />
+      <edge source="george" target="pokimane" id="8" weight="180" />
+      <edge source="helen" target="gaules" id="9" weight="300" />
+    </edges>
+  </graph>
+</gexf>
